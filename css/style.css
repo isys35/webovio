@@ -181,7 +181,9 @@ img {
 }
 
 .services {
+    margin-bottom: -180px;
     padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .services-title {
@@ -220,6 +222,35 @@ img {
 }
 
 .services-link {
-    margin-bottom: 190px;
+    margin-bottom: 110px;
     margin-top: auto;
+}
+
+footer {
+    background-image: url("../img/Bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.get-started {
+    position: relative;
+    top: 180px;
+    padding: 70px 0;
+    width: 88%;
+    background: #FAFAFA;
+    box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+}
+
+.get-started-link {
+    text-transform: uppercase;
+}
+
+.get-started-title {
+    margin: 0;
+    margin-bottom: 50px;
+    max-width: 822px;
+    font-size: 60px;
+    line-height: 74px;
+    color: #4D533C;
 }
